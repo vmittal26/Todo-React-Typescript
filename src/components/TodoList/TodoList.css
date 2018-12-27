@@ -1,0 +1,23 @@
+.TodoList {
+  padding: 1rem;
+  border: 1px solid #cccc;
+  background: #f4f4f4;
+}
+.TodoList__container {
+  display: flex;
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #ccc;
+}
+
+.TodoList__container span {
+  flex-grow: 1;
+}
+.TodoList__list_item {
+  border: none;
+  background: transparent;
+}
+
+.TodoList__list_item:hover {
+  background-color: #509eda;
+  color: white;
+}
